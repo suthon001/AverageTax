@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="AverageTax">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 4122414821 - Field 1541097592 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Average %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DSVC Average Tax Setup - Field DSVC Average % - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4122414821 - Field 951819105 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DSVC Average Tax Setup - Field DSVC Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4122414821 - Field 2308442752 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DSVC Average Tax Setup - Field DSVC Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4122414821 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Average Tax Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DSVC Average Tax Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4122414821 - Control 1541097592 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Average % of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DSVC Average Tax Setup - Control DSVC Average % - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4122414821 - Control 951819105 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Code of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DSVC Average Tax Setup - Control DSVC Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4122414821 - Control 2308442752 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Description of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DSVC Average Tax Setup - Control DSVC Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 967646072 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Vat (Average Tax)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DSVC Purchase VAT Average Tax - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 967646072 - NamedType 396833474" maxwidth="5" size-unit="char" translate="yes" xml:space="preserve">
+          <source>00000</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DSVC Purchase VAT Average Tax - NamedType ShowBranchMsg</note>
+        </trans-unit>
+        <trans-unit id="Report 967646072 - NamedType 4076063126" maxwidth="1" size-unit="char" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DSVC Purchase VAT Average Tax - NamedType XShowMsg</note>
+        </trans-unit>
+        <trans-unit id="Report 967646072 - ReportDataItem 2941967353 - Method 72583909 - NamedType 1792361784" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Bus. Posting Group must spacifies</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DSVC Purchase VAT Average Tax - ReportDataItem VAT Entry - Method OnPreDataItem - NamedType checkVatBusErr</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 577326063 - Control 1541097592 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1521900543">
+          <source>Specifies the Average % of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC Avg. Purch. CN Line - Control DSVC Average % - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 577326063 - Control 46810247 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1521900543">
+          <source>Specifies the Average Amount of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC Avg. Purch. CN Line - Control DSVC Average Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 577326063 - Control 828806400 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1521900543">
+          <source>Specifies the Code of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC Avg. Purch. CN Line - Control DSVC Average Tax Codeๅจ - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 577326063 - Control 2945985194 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1521900543">
+          <source>Total Average Tax</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC Avg. Purch. CN Line - Control AverageText - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 577326063 - Control 2945985194 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1521900543">
+          <source>Average Tax</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC Avg. Purch. CN Line - Control AverageText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 577326063 - Control 89551590 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1521900543">
+          <source>Total Average Tax</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC Avg. Purch. CN Line - Control OriginalVat - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 577326063 - Control 89551590 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1521900543">
+          <source>Total Vat</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC Avg. Purch. CN Line - Control OriginalVat - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4175192635 - Control 1541097592 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 896930563">
+          <source>Specifies the Average % of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC Avg. Purch. Invoice Line - Control DSVC Average % - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4175192635 - Control 46810247 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 896930563">
+          <source>Specifies the Average Amount of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC Avg. Purch. Invoice Line - Control DSVC Average Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4175192635 - Control 3388255051 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 896930563">
+          <source>Specifies the Code of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC Avg. Purch. Invoice Line - Control DSVC Average Tax Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4175192635 - Control 2945985194 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 896930563">
+          <source>Total Average Tax</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC Avg. Purch. Invoice Line - Control AverageText - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4175192635 - Control 2945985194 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 896930563">
+          <source>Average Tax</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC Avg. Purch. Invoice Line - Control AverageText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4175192635 - Control 89551590 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 896930563">
+          <source>Total Average Tax</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC Avg. Purch. Invoice Line - Control OriginalVat - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4175192635 - Control 89551590 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 896930563">
+          <source>Total Vat</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC Avg. Purch. Invoice Line - Control OriginalVat - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3022795515 - Control 1541097592 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2248515987">
+          <source>Specifies the Average % of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC Avg. VetEntry Line - Control DSVC Average % - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3022795515 - Control 46810247 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2248515987">
+          <source>Specifies the Average Amount of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC Avg. VetEntry Line - Control DSVC Average Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3022795515 - Control 3388255051 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2248515987">
+          <source>Specifies the Code of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC Avg. VetEntry Line - Control DSVC Average Tax Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3022795515 - Control 426187045 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2248515987">
+          <source>Specifies the Average Amount of the Tax Amount Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC Avg. VetEntry Line - Control DSVC Tax Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1467014223 - Control 1541097592 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1556019237">
+          <source>Specifies the Average % of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC Avg. VetEntry Preview - Control DSVC Average % - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1467014223 - Control 46810247 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1556019237">
+          <source>Specifies the Average Amount of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC Avg. VetEntry Preview - Control DSVC Average Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1725512794 - Control 1541097592 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2410131092">
+          <source>Specifies the Average % of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC AvgPostedPurchInv.Line - Control DSVC Average % - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1725512794 - Control 46810247 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2410131092">
+          <source>Specifies the Average Amount of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC AvgPostedPurchInv.Line - Control DSVC Average Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1725512794 - Control 3388255051 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2410131092">
+          <source>Specifies the Code of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC AvgPostedPurchInv.Line - Control DSVC Average Tax Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 612299706 - Action 2624697340 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1638686336">
+          <source>Review the different types of entries that will be created when you post the document or journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC CashReceiptJournal avg - Action DSVCPreview - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 612299706 - Action 2624697340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1638686336">
+          <source>Preview Posting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC CashReceiptJournal avg - Action DSVCPreview - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 612299706 - Control 1541097592 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1638686336">
+          <source>Specifies the Average % of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC CashReceiptJournal avg - Control DSVC Average % - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 612299706 - Control 46810247 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1638686336">
+          <source>Specifies the Average Amount of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC CashReceiptJournal avg - Control DSVC Average Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 612299706 - Control 3388255051 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1638686336">
+          <source>Specifies the Code of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC CashReceiptJournal avg - Control DSVC Average Tax Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2811367879 - Action 2624697340 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
+          <source>Review the different types of entries that will be created when you post the document or journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC GeneralJournal avg - Action DSVCPreview - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2811367879 - Action 2624697340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
+          <source>Preview Posting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC GeneralJournal avg - Action DSVCPreview - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2811367879 - Control 1541097592 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
+          <source>Specifies the Average % of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC GeneralJournal avg - Control DSVC Average % - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2811367879 - Control 46810247 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
+          <source>Specifies the Average Amount of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC GeneralJournal avg - Control DSVC Average Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2811367879 - Control 3388255051 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
+          <source>Specifies the Code of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC GeneralJournal avg - Control DSVC Average Tax Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2830889755 - Action 2624697340 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3196174509">
+          <source>Review the different types of entries that will be created when you post the document or journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC PaymentJournal avg - Action DSVCPreview - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2830889755 - Action 2624697340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3196174509">
+          <source>Preview Posting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC PaymentJournal avg - Action DSVCPreview - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2830889755 - Control 1541097592 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3196174509">
+          <source>Specifies the Average % of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC PaymentJournal avg - Control DSVC Average % - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2830889755 - Control 46810247 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3196174509">
+          <source>Specifies the Average Amount of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC PaymentJournal avg - Control DSVC Average Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2830889755 - Control 3388255051 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3196174509">
+          <source>Specifies the Code of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC PaymentJournal avg - Control DSVC Average Tax Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3340390321 - Control 1541097592 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2245441041">
+          <source>Spacifies Average %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC VatInfo - Control DSVC Average % - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3340390321 - Control 46810247 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2245441041">
+          <source>Spacifies Average %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC VatInfo - Control DSVC Average Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4080861738 - Control 1651745144 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2185980144">
+          <source>Spcifies Average Tax</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC VATPostingGroup - Control DSVC Average Tax - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3145093834 - Control 1541097592 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1169370431">
+          <source>Specifies the Average % of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC VatPurchase Entry - Control DSVC Average % - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3145093834 - Control 46810247 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1169370431">
+          <source>Specifies the Average Amount of the Average Tax Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DSVC VatPurchase Entry - Control DSVC Average Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2820404172 - Field 1541097592 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+          <source>Average %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg. Gen.line - Field DSVC Average % - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2820404172 - Field 46810247 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+          <source>Average Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg. Gen.line - Field DSVC Average Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2820404172 - Field 1651745144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+          <source>Average Tax</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg. Gen.line - Field DSVC Average Tax - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2820404172 - Field 3388255051 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+          <source>Average Tax Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg. Gen.line - Field DSVC Average Tax Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2820404172 - Field 2698741809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+          <source>From Purchase</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg. Gen.line - Field DSVC From Purchase - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2820404172 - Field 597552034 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+          <source>Split Average Tax</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg. Gen.line - Field DSVC Split Average Tax - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2820404172 - Field 426187045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+          <source>Tax Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg. Gen.line - Field DSVC Tax Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 780646196 - Field 1541097592 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>Average %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg. PurchaseInvoiceLine - Field DSVC Average % - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 780646196 - Field 46810247 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>Average Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg. PurchaseInvoiceLine - Field DSVC Average Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 780646196 - Field 3388255051 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>Average Tax Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg. PurchaseInvoiceLine - Field DSVC Average Tax Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 780646196 - Field 597552034 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>Split Average Tax</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg. PurchaseInvoiceLine - Field DSVC Split Average Tax - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 780646196 - Field 426187045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>Tax Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg. PurchaseInvoiceLine - Field DSVC Tax Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 661345131 - Field 1541097592 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Average %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg. PurchaseLine - Field DSVC Average % - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 661345131 - Field 46810247 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Average Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg. PurchaseLine - Field DSVC Average Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 661345131 - Field 3388255051 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Average Tax Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg. PurchaseLine - Field DSVC Average Tax Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 661345131 - Field 597552034 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Split Average Tax</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg. PurchaseLine - Field DSVC Split Average Tax - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 661345131 - Field 426187045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Tax Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg. PurchaseLine - Field DSVC Tax Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 780863301 - Field 1541097592 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2941967353">
+          <source>Average %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg. VatEntry - Field DSVC Average % - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 780863301 - Field 46810247 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2941967353">
+          <source>Average Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg. VatEntry - Field DSVC Average Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 780863301 - Field 1651745144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2941967353">
+          <source>Average Tax</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg. VatEntry - Field DSVC Average Tax - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 780863301 - Field 3388255051 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2941967353">
+          <source>Average Tax Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg. VatEntry - Field DSVC Average Tax Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 780863301 - Field 426187045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2941967353">
+          <source>Tax Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg. VatEntry - Field DSVC Tax Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1298799271 - Field 1541097592 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2247222673">
+          <source>Average %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg.Invoice Buffer - Field DSVC Average % - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1298799271 - Field 46810247 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2247222673">
+          <source>Average Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg.Invoice Buffer - Field DSVC Average Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1298799271 - Field 1651745144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2247222673">
+          <source>Average Tax</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg.Invoice Buffer - Field DSVC Average Tax - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1298799271 - Field 3388255051 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2247222673">
+          <source>Average Tax Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg.Invoice Buffer - Field DSVC Average Tax Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1298799271 - Field 2698741809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2247222673">
+          <source>From Purchase</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg.Invoice Buffer - Field DSVC From Purchase - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1298799271 - Field 426187045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2247222673">
+          <source>Tax Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC Avg.Invoice Buffer - Field DSVC Tax Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1522893873 - Field 1651745144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 633887033">
+          <source>Average Tax</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DSVC VATProdPostingGroup - Field DSVC Average Tax - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

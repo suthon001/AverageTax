@@ -1,0 +1,37 @@
+{
+  "id": "ebbf670a-fa85-4041-8e02-cd9ebd42cbde",
+  "name": "AverageTax",
+  "publisher": "DSVC Business Solutions Ltd.",
+  "version": "1.0.0.18",
+  "brief": "AverageTax",
+  "description": "App for Average Tax",
+  "privacyStatement": "https://dsvc.pro/legal/privacy_policy.html",
+  "EULA": "https://dsvc.pro/legal/EULA.html",
+  "help": "https://dsvc.pro/help/",
+  "url": "https://dsvc.pro/",
+  "logo": "logo.png",
+  "dependencies": [
+    {
+      "id": "f512c58a-6c13-4c3d-87a1-b9aa3ee16f6b",
+      "name": "DSVC TH Localiaztion(PTE)",
+      "publisher": "DSVC Business Solutions Ltd.",
+      "version": "1.0.0.27"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "features": ["TranslationFile"],
+  "idRanges": [
+    {
+      "from": 70400,
+      "to": 70499
+    }
+  ],
+  "resourceExposurePolicy": {"allowDebugging": false,"allowDownloadingSource": false,"includeSourceInSymbolFile": false},
+  "contextSensitiveHelpUrl": "https://dsvc.pro/help/",
+  "runtime": "8.0",
+  "target": "Cloud",
+  "supportedLocales": ["en-US"],
+  "suppressWarnings": ["AA0072","AA0232","AL0432","AL0667"]
+}
