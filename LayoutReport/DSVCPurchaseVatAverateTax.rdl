@@ -1937,14 +1937,14 @@
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="DSVC_Tax_Amount">
+                        <Textbox Name="NCT _Tax_Amount">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!DSVC_Tax_Amount.Value)</Value>
+                                  <Value>=Sum(Fields!NCT _Tax_Amount.Value)</Value>
                                   <Style>
                                     <FontFamily>CordiaUPC</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -1957,7 +1957,7 @@
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>DSVC_Tax_Amount</rd:DefaultName>
+                          <rd:DefaultName>NCT _Tax_Amount</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
@@ -1970,14 +1970,14 @@
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="DSVC_Average_Amount">
+                        <Textbox Name="NCT _Average_Amount">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!DSVC_Average_Amount.Value)</Value>
+                                  <Value>=Sum(Fields!NCT _Average_Amount.Value)</Value>
                                   <Style>
                                     <FontFamily>CordiaUPC</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -1990,7 +1990,7 @@
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>DSVC_Average_Amount</rd:DefaultName>
+                          <rd:DefaultName>NCT _Average_Amount</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
@@ -2340,7 +2340,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!DSVC_Tax_Amount.Value)</Value>
+                                  <Value>=Sum(Fields!NCT _Tax_Amount.Value)</Value>
                                   <Style>
                                     <FontFamily>CordiaUPC</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -2374,7 +2374,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!DSVC_Average_Amount.Value)</Value>
+                                  <Value>=Sum(Fields!NCT _Average_Amount.Value)</Value>
                                   <Style>
                                     <FontFamily>CordiaUPC</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -3377,17 +3377,17 @@ End Function</Code>
         <Field Name="VATAmountFormat">
           <DataField>VATAmountFormat</DataField>
         </Field>
-        <Field Name="DSVC_Average_Amount">
-          <DataField>DSVC_Average_Amount</DataField>
+        <Field Name="NCT _Average_Amount">
+          <DataField>NCT _Average_Amount</DataField>
         </Field>
-        <Field Name="DSVC_Average_AmountFormat">
-          <DataField>DSVC_Average_AmountFormat</DataField>
+        <Field Name="NCT _Average_AmountFormat">
+          <DataField>NCT _Average_AmountFormat</DataField>
         </Field>
-        <Field Name="DSVC_Tax_Amount">
-          <DataField>DSVC_Tax_Amount</DataField>
+        <Field Name="NCT _Tax_Amount">
+          <DataField>NCT _Tax_Amount</DataField>
         </Field>
-        <Field Name="DSVC_Tax_AmountFormat">
-          <DataField>DSVC_Tax_AmountFormat</DataField>
+        <Field Name="NCT _Tax_AmountFormat">
+          <DataField>NCT _Tax_AmountFormat</DataField>
         </Field>
         <Field Name="AverageVATAmt">
           <DataField>AverageVATAmt</DataField>
