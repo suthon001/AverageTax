@@ -67,7 +67,7 @@ report 70400 "NCT Purchase VAT Average Tax"
                 column(Establishment_TaxReportLine; "Head Office")
                 {
                 }
-                column(BranchNo_TaxReportLine; "Branch Code")
+                column(BranchNo_TaxReportLine; "VAT Branch Code")
                 {
                 }
                 column(VATRegistrationNo_TaxReportLine; "VAT Registration No.")
@@ -111,7 +111,7 @@ report 70400 "NCT Purchase VAT Average Tax"
                     if "Head Office" then
                         Var_EstablishmentLine := '/'
                     else
-                        Var_Branch := "Branch Code";
+                        Var_Branch := "VAT Branch Code";
 
                     AverageVATAmt := ("NCT Average %" * "Base Amount") / 100;
                     AverageVATAmt := "Base Amount" - AverageVATAmt;
@@ -135,7 +135,7 @@ report 70400 "NCT Purchase VAT Average Tax"
                         var_BrandName := 'สำนักงานใหญ่';
                     END
                     ELSE BEGIN
-                        var_BrandNo := VATBusinessPostingGroup."NCT Branch Code";
+                        var_BrandNo := VATBusinessPostingGroup."NCT VAT Branch Code";
                         var_BrandName := 'สาขาที่ ';
                     END;
                     var_BrandAddress := VATBusinessPostingGroup."NCT Company Address (Thai)" + ' ';
@@ -152,7 +152,7 @@ report 70400 "NCT Purchase VAT Average Tax"
                         var_BrandNo := '';
                     end else begin
                         var_BrandName := 'สาขาที่ ';
-                        var_BrandNo := CompanyInformation."NCT Branch Code";
+                        var_BrandNo := CompanyInformation."NCT VAT Branch Code";
                     end;
                     var_BrandAddress := CompanyInformation.Address + ' ';
                     var_BrandAddress2 := CompanyInformation."Address 2" + ' ' + CompanyInformation.City + ' ' + CompanyInformation."Post Code";

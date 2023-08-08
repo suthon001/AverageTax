@@ -11,7 +11,7 @@ codeunit 70400 "NCT Avg. Funtions"
     end;
 
     [EventSubscriber(ObjectType::Table, database::"NCT Tax & WHT Line", 'OnBeforeInsertVatLine', '', false, false)]
-    local procedure OnBeforeInsertVatLine(var TaxReportLine: Record "NCT Tax & WHT Line"; var VatTransaction: Record "NCT VAT Transections")
+    local procedure OnBeforeInsertVatLine(var TaxReportLine: Record "NCT Tax & WHT Line"; VatTransaction: Record "NCT VAT Transections")
     begin
         TaxReportLine."NCT Average %" := VatTransaction."NCT Average %";
         TaxReportLine."NCT Average Amount" := VatTransaction."NCT Average Amount";

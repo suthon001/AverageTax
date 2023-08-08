@@ -2791,12 +2791,6 @@ End Function</Code>
         <Field Name="Average_AmountFormat">
           <DataField>Average_AmountFormat</DataField>
         </Field>
-        <Field Name="Tax_Amount">
-          <DataField>Tax_Amount</DataField>
-        </Field>
-        <Field Name="Tax_AmountFormat">
-          <DataField>Tax_AmountFormat</DataField>
-        </Field>
         <Field Name="AverageVATAmt">
           <DataField>AverageVATAmt</DataField>
         </Field>
