@@ -164,29 +164,29 @@ codeunit 70400 "NCT Avg. Funtions"
                 end;
     end;
 
-    [EventSubscriber(ObjectType::Codeunit, Codeunit::"Gen. Jnl.-Post Line", 'OnBeforeInsertGlEntry', '', false, false)]
-    local procedure DSVCOnBeforeInsertGlEntry(var GenJnlLine: Record "Gen. Journal Line"; var GLEntry: Record "G/L Entry")
-    begin
+    // [EventSubscriber(ObjectType::Codeunit, Codeunit::"Gen. Jnl.-Post Line", 'OnBeforeInsertGlEntry', '', false, false)]
+    // local procedure DSVCOnBeforeInsertGlEntry(var GenJnlLine: Record "Gen. Journal Line"; var GLEntry: Record "G/L Entry")
+    // begin
 
-        if NOT GenJnlLine."NCT From Purchase" then begin
-            if (GenJnlLine."NCT Average Amount" <> 0) AND (GLEntry."Gen. Prod. Posting Group" <> '') then
-                GLEntry.Amount := (GLEntry.Amount + GenJnlLine."NCT Tax Invoice Amount") - GenJnlLine."NCT Average Amount"
-        end else
-            if (GenJnlLine."NCT Average Amount" <> 0) AND (GLEntry."Gen. Prod. Posting Group" <> '') then
-                GLEntry.Amount := (GLEntry.Amount + GLEntry."Vat Amount") - GenJnlLine."NCT Average Amount"
-    end;
+    //     if NOT GenJnlLine."NCT From Purchase" then begin
+    //         if (GenJnlLine."NCT Average Amount" <> 0) AND (GLEntry."Gen. Prod. Posting Group" <> '') then
+    //             GLEntry.Amount := (GLEntry.Amount + GenJnlLine."NCT Tax Invoice Amount") - GenJnlLine."NCT Average Amount"
+    //     end else
+    //         if (GenJnlLine."NCT Average Amount" <> 0) AND (GLEntry."Gen. Prod. Posting Group" <> '') then
+    //             GLEntry.Amount := (GLEntry.Amount + GLEntry."Vat Amount") - GenJnlLine."NCT Average Amount"
+    // end;
 
-    [EventSubscriber(ObjectType::Codeunit, Codeunit::"Gen. Jnl.-Post Line", 'OnBeforeInsertVATEntry', '', false, false)]
-    local procedure DSVCOnBeforeInsertVATEntry(GenJournalLine: Record "Gen. Journal Line"; var VATEntry: Record "VAT Entry")
-    begin
-        if GenJournalLine."NCT From Purchase" then begin
-            if GenJournalLine."NCT Tax Amount" <> 0 then
-                VATEntry.Amount := VATEntry.Amount + VATEntry."NCT Average Amount";
-        end else
-            if (GenJournalLine."NCT Average Tax Code" <> '') then
-                VATEntry.Amount := GenJournalLine."NCT Tax Invoice Amount";
+    // [EventSubscriber(ObjectType::Codeunit, Codeunit::"Gen. Jnl.-Post Line", 'OnBeforeInsertVATEntry', '', false, false)]
+    // local procedure DSVCOnBeforeInsertVATEntry(GenJournalLine: Record "Gen. Journal Line"; var VATEntry: Record "VAT Entry")
+    // begin
+    //     if GenJournalLine."NCT From Purchase" then begin
+    //         if GenJournalLine."NCT Tax Amount" <> 0 then
+    //             VATEntry.Amount := VATEntry.Amount + VATEntry."NCT Average Amount";
+    //     end else
+    //         if (GenJournalLine."NCT Average Tax Code" <> '') then
+    //             VATEntry.Amount := GenJournalLine."NCT Tax Invoice Amount";
 
-    end;
+    // end;
 
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"Purch.-Post", 'OnBeforeInitGenJnlLineAmountFieldsFromTotalPurchLine', '', false, false)]
     local procedure DSVCOnBeforeInitGenJnlLineAmountFieldsFromTotalPurchLine(var TotalPurchLine2: Record "Purchase Line"; var TotalPurchLineLCY2: Record "Purchase Line"; var GenJnlLine: Record "Gen. Journal Line"; var PurchHeader: Record "Purchase Header"; var IsHandled: Boolean)
